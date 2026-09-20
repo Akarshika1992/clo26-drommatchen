@@ -1,9 +1,9 @@
 # Reflektion
 
-**Namn:**  
-**Kurs:**  
-**Uppgift:**  
-**Datum:**  
+**Namn:**  Akarshika Srivastava
+**Kurs:**  Grundläggande OOP i C#
+**Uppgift:**  Drömmatchen
+**Datum:**    20/09/26
 
 ---
 
@@ -17,7 +17,9 @@
 *Var fastnade du? Vad tog längre tid än du trodde — och hur kom du vidare?*
 
 > 
-
+Det svåraste var att förstå klasser och metoder. Ibland fick jag fel 
+i koden och behövde testa flera gånger. 
+Jag löste det genom att kolla på koden och ändra det som var fel.
 ---
 
 ## Hur fungerade samarbetet i gruppen?
@@ -27,10 +29,13 @@
 
 > 
 
+
 ---
 
 ## Om du fick göra om det — vad hade du gjort annorlunda?
 
 *Tänk på din lösning, din struktur, eller hur ni jobbade. Vad skulle du ändra?*
 
+Jag hade planerat lite mer innan jag började. Jag hade också testat
+koden mer från början så att jag kunde hitta fel tidigare.
 > 

@@ -8,34 +8,45 @@ public class Match
     // Properties — publik get, privat set
     public string Hemmalag
     {
-        // get och privat set för Hemmalag 
+        get;
+        private set; // get och privat set för Hemmalag 
     }
 
     public string Bortalag
     {
-        // get och privat set för Bortalag
+        get;
+        private set; // get och privat set för Bortalag
     }
 
     public string Datum
     {
-        // get och privat set för Datum
+        get;
+        private set; // get och privat set för Datum
     }
 
     // Konstruktor
     public Match(string hemmalag, string bortalag, string datum)
     {
-        // TODO: tilldela de privata fälten
+        Hemmalag = hemmalag;
+        Bortalag = bortalag;
+        Datum = datum; // TODO: tilldela de privata fälten
     }
 
     // Metod 1: skriv ut matchens lag och datum
     public void Presentera()
     {
-        // TODO
+
+        Console.WriteLine($"\n{Hemmalag} vs {Bortalag} — {Datum}"); // TODO
     }
 
     // Metod 2: skriv ut spelarens namn, nummer och position
     public void AnnounceraMålskytt(Spelare spelare)
     {
-        // TODO
+        Console.WriteLine($"MÅL! #{spelare.Nummer} {spelare.Namn} ({spelare.Position})"); // TODO
+    }
+
+    public bool Ärmatchhjälte(Spelare spelare)
+    {
+        return spelare.Mål >= 1;
     }
 }
