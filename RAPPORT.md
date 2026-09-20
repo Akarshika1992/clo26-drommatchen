@@ -99,6 +99,8 @@ Om spelaren inte har gjort mål blir det false.
 ## Git-logg
 
 Klistra in utskriften från `git log --oneline` här:
+commit d005fb384568b60c1f34c7b8e8eaf18760d49b89 (HEAD -> main)
+
 
 ```
 [klistra in här]
