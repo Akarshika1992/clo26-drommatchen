@@ -25,10 +25,10 @@ public class Match
     }
 
     // Konstruktor
-    public Match(string hemmalag, string bortalag, string datum)
+    public Match(string hemma, string borta, string datum)
     {
-        Hemmalag = hemmalag;
-        Bortalag = bortalag;
+        Hemmalag = hemma;
+        Bortalag = borta;
         Datum = datum; // TODO: tilldela de privata fälten
     }
 

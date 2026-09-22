@@ -56,7 +56,7 @@ class Program
         Console.Write("Ange datum: ");
         string datum = Console.ReadLine();
 
-        Match match = new Match("Hemmalag", "Bortalag", "Datum");
+        Match match = new Match(hemma, borta, datum);
 
         match.Presentera();
 
