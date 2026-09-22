@@ -45,7 +45,7 @@ public class Match
         Console.WriteLine($"MÅL! #{spelare.Nummer} {spelare.Namn} ({spelare.Position})"); // TODO
     }
 
-    public bool Ärmatchhjälte(Spelare spelare)
+    public bool ÄrMatchhjälte(Spelare spelare)
     {
         return spelare.Mål >= 1;
     }

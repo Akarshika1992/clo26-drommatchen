@@ -20,9 +20,7 @@ class Program
         int mål1 = int.Parse(Console.ReadLine()!);
 
         Spelare spelare1 = new Spelare(namn1, nummer1, position1, mål1);
-
-// Spelare spelare1 = new Spelare("Namn", nummer, "Position");
-
+        
 
         Console.WriteLine("\n----Spelare 2-----");
 
@@ -39,10 +37,7 @@ class Program
         int mål2 = int.Parse(Console.ReadLine()!);
 
         Spelare spelare2 = new Spelare(namn2, nummer2, position2, mål2);
-
-
-// Spelare spelare2 = new Spelare(...);
-
+        
 // TODO: Skapa 1 match
 
         Console.WriteLine("\n----MATCH-----");
@@ -59,9 +54,7 @@ class Program
         Match match = new Match(hemma, borta, datum);
 
         match.Presentera();
-
-// Match match = new Match("Hemmalag", "Bortalag", "Datum");
-
+        
 // TODO: Anropa match.Presentera()
 
 
@@ -76,13 +69,13 @@ class Program
         Console.WriteLine("\n--- MATCHHJÄLTAR ---");
 
         Console.WriteLine(
-            $"{spelare1.Namn} är matchhjälte: " +
-            match.Ärmatchhjälte(spelare1)
+            $"{spelare1.Namn} är Matchhjälte: " +
+            match.ÄrMatchhjälte(spelare1)
         );
 
         Console.WriteLine(
-            $"{spelare2.Namn} är matchhjälte: " +
-            match.Ärmatchhjälte(spelare2)
+            $"{spelare2.Namn} är Matchhjälte: " +
+            match.ÄrMatchhjälte(spelare2)
         );
 
     }
